@@ -1,0 +1,38 @@
+#' A different as.factor
+#'
+#' @description A function to coerce everything to type factor.
+#'
+#' @param x An object to coerce to type factor.
+#' @param only.on Selects a subset of the data to which to apply as_factor.
+#' @param coerce.warning Whether to warn the user if coercion happened, defaults to TRUE
+#' @note Works with data.frames, lists, data.tables, without exhibiting 'weird' behaviour.
+#' @return An object of same structure as x, with elements coerced to factor.
+#' @importFrom data.table data.table
+#' @export
+#' @examples
+#'
+#'  
+#'  # lets start by creating a factor
+#'  A <- factor(c(1,2,7,5))
+#'  as.character(A) # returns what anyone would expect
+#'  
+#'  # so lets try to see what happens when you convert A to a matrix
+#'  A <- matrix( data = A, nrow = 2)
+#'  # A gets converted to character automatically, so far so good
+#'  # lets make it into a data.frame now
+#'  A <- data.frame(A)
+#'  as.character(A)
+#'  # the above returns nonsense. "1:2" "2:1" is probably not what anyone expects 
+#'  
+#'  # so we try the old trick 
+#'  apply(A, MARGIN = 2, FUN = as.character)
+#'  
+#'  # and this makes sense. 
+#'  # so what does as_character return? 
+#'  as_character(A)
+#'  # the sensible answer
+#'  
+
+
+
+data.table <- NULL

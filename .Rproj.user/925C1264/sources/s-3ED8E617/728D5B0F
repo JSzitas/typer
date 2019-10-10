@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570355315662.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2039062322",
+    "id" : "728D5B0F",
+    "lastKnownWriteTime" : 1570707264,
+    "last_content_update" : 1570707264947,
+    "path" : "C:/Users/juraj/git_hub/typer/R/typer.R",
+    "project_path" : "R/typer.R",
+    "properties" : {
+        "cursorPosition" : "63,56",
+        "scrollLine" : "56",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
