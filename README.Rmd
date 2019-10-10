@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
   warning = FALSE
 )
 ```
-# panelWranglR
+# typer
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/JSzitas/typer.svg?branch=master)](https://travis-ci.org/JSzitas/typer)
