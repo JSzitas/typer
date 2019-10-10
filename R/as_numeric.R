@@ -20,7 +20,8 @@
 #'  as.numeric(A) # this is basically terrible and not what you want (most likely)
 #'  as_numeric(A) # this works
 #'  # further this function works happily with lists and matrices (and everything else)
-#'  # and it will throw a warning and omit where the coercion would produce an NA (unless force is set to TRUE)
+#'  # and it will throw a warning and omit where the coercion would produce an NA
+#'
 #'
 
 

@@ -22,3 +22,19 @@ A function to coerce everything to type numeric, without giving an NA result.
 \note{
 Works with character vectors like "0,5145" without giving a warning or returning an NA.
 }
+\examples{
+
+ # observe what as.numeric does
+ A <- c("2,4","0.36","0.45","9,7")
+ as.numeric(A)
+ # and what as_numeric does
+ as_numeric(A)
+ # further if A is a factor
+ A <- as.factor(c(10,2.7,5.5))
+ as.numeric(A) # this is basically terrible and not what you want (most likely)
+ as_numeric(A) # this works
+ # further this function works happily with lists and matrices (and everything else)
+ # and it will throw a warning and omit where the coercion would produce an NA
+
+
+}

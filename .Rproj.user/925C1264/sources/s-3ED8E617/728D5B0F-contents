@@ -1,6 +1,7 @@
-#' A type coercion operator, %t%
+#' A type coercion operator
 #'
 #' @description Allows the quick changing of types, using the new type coercions introduced in the package.
+#'
 #' @param obj The object to coerce into a new type.
 #' @param new_type The character string (or string shorthand) giving the new type required.
 #' @note Accepts both full argument names: "numeric","character","logical",
@@ -75,6 +76,7 @@ make_call <- which( c(!is.na(match_string_short), !is.na(match_string_full)))
     stop("Please provide a valid type name/shorthand for coercion.")
   }
 }
+
 
 
 

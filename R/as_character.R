@@ -6,7 +6,6 @@
 #' @param only.on Selects a subset of the data to which to apply as_character.
 #' @note Works with data.frames, lists, data.tables, without exhibiting 'weird' behaviour.
 #' @return An object of same structure as x, with elements coerced to character.
-#' @importFrom data.table data.table
 #' @export
 #' @examples
 #'
