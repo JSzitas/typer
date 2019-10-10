@@ -16,7 +16,7 @@
 #'                                         "sym","expr","dfm",
 #'                                         "vec","fac","dtb"
 #'
-#' @details Behaves a bit more smartly than base coercion (ie numbers containing a "," as a separator get coerced to type numeric)
+#' @details Behaves a bit more smartly than base coercion (f.e. numbers containing a "," as a separator get coerced to type numeric)
 #' @return The coerced object.
 #' @export
 #' @examples
