@@ -18,11 +18,16 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/JSzitas/typer.svg?branch=master)](https://travis-ci.org/JSzitas/typer)
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/JSzitas/typer?branch=master&svg=true)](https://ci.appveyor.com/project/JSzitas/typer)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Codecov test coverage](https://codecov.io/gh/JSzitas/typer/branch/master/graph/badge.svg)](https://codecov.io/gh/JSzitas/typer?branch=master)
 [![CRAN status](https://www.r-pkg.org/badges/version/typer)](https://CRAN.R-project.org/package=typer)
-
+[![R build status](https://github.com/JSzitas/typer/workflows/R-CMD-check/badge.svg)](https://github.com/JSzitas/typer/actions)
 <!-- badges: end -->
+
+
+**NOTE: More interesting things coming soon.**
+
 
 
 **typer** introduces a new type coercion operator, and fixes some unexpected behaviour in base R. 

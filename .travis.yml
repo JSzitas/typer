@@ -3,6 +3,9 @@ language: r
 cache: packages
 warnings_are_errors: FALSE
 
+r_packages:
+  - covr
+
 # environment variables set for all builds
 env:
   global:
@@ -22,9 +25,10 @@ script:
     R CMD build .
     travis_wait 40 R CMD check typer*tar.gz
 
-
-
 notifications:
   email:
     on_success: change
     on_failure: change
+
+after_success:
+  - Rscript -e 'library(covr); codecov()'
